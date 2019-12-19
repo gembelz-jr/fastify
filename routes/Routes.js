@@ -1,5 +1,7 @@
 let users = require('../modul/Controller');
 let auth = require('../modul/Auth');
+let middleware = require('../modul/middleware/Middleware-token');
+let todo = require('../modul/Todo')
 
 async function routes (fastify, options) {
     //Route Ujicoba
